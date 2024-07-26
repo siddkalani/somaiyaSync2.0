@@ -36,7 +36,7 @@ const Header = () => {
     <header
       className={`
         ${scrollState.isScrolling ? 'z-[2] fixed w-full p-mobile' : 'z-[2] fixed w-full lg:p-h p-mobile'}
-        ${scrollState.isScrolling && !scrollState.isDarkMode ? 'backdrop-blur-md bg-opacity-70' : ''}
+        ${scrollState.isScrolling && !scrollState.isDarkMode ? 'backdrop-blur-lg bg-opacity-70' : ''}
         ${scrollState.isDarkMode ? 'bg-[var(--color-light)]' : ''}
         transition-all duration-300
       `}

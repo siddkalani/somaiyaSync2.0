@@ -228,6 +228,7 @@
     .p-h {
         padding: calc(var(--gap)* 0.5) var(--container-padding);
         transition: var(--animation-nav);
+        
         background: rgba( 0, 0, 0, 0.1 );
         backdrop-filter: blur( 0.5px );
         -webkit-backdrop-filter: blur( 0.5px );
